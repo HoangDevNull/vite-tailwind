@@ -1,0 +1,19 @@
+.root {
+  @apply mb-16 flex items-center justify-between py-4 px-4 sm:mx-0 sm:mb-20 sm:px-0 md:px-6 bg-white;
+}
+
+.navLeft {
+  @apply mt-4 inline-block pb-4 pl-8;
+}
+
+.logo {
+  @apply align-middle text-3xl font-bold text-black;
+}
+
+.list {
+  @apply hidden pl-14 align-middle xl:inline-block;
+}
+
+.item {
+  @apply pr-12 text-xl text-black;
+}

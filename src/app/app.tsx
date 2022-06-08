@@ -1,9 +1,10 @@
 import styles from "./app.module.css";
+import Layout from "./Layout";
 
 const App = (): JSX.Element => {
   return (
     <main className={styles.main}>
-      <h1 className={styles.headline}>Hello world!</h1>
+      <Layout>XXX</Layout>
     </main>
   );
 };
